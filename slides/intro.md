@@ -1,14 +1,12 @@
 class: center, middle
 
-# Title of the Talk
+# PeopleSoft Administration & Oracle Cloud Infrastructure
 
-Your Name
+Dan Iverson and Kyle Benson
 
 ![psadmin.io](images/psadmin_io.png)
 
-Session ID: **12345**
-
-https://wiki.psadmin.io/talk.TALKNAME
+https://wiki.psadmin.io/talk.psa-and-oci
 
 ???
 
@@ -19,7 +17,12 @@ Notes go here
 # Agenda
 
 1. Introduction
-1. About us
+1. Discussion
+    1. Enhanced security
+    1. High availability
+    1. Disaster recovery
+    1. Automation 
+1. Demo
 1. Questions
 
 ???
@@ -27,24 +30,11 @@ Notes go here
 Notes go here
 
 ---
-class: center, middle, title
-# Title
----
-class: center, middle, black
-# Black
----
-class: center, middle, white
-# White
----
-class: center, middle, gray
-# Gray
----
-# Bullets
-* Item
-* Item
-* Item
----
-# Numbers
-1. Item
-1. Item
-1. Item
+
+# About Us
+
+Talk about who we are!
+
+???
+
+Notes go here
