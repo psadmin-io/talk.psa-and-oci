@@ -1,3 +1,3 @@
-class: center, middle
+class: center, middle, white
 
 # Questions?

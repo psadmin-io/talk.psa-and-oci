@@ -1,19 +1,32 @@
 class: center, middle, white
-# Enhanced security
+# Enhanced Security
 
 ???
+
+* Compartments and Tags
+* SL vs. NSG
+* Instance Principles
+* Demo: Secrets from the Vault 
 
 ---
 class: center, middle, white
-# High availability
+# High Availability
 
 ???
+
+* OCI Load Balancer
+* FSS/Object Storage
+* Instance Pool
 
 ---
 class: center, middle, white
-# Disaster recovery
+# Disaster Recovery
 
 ???
+
+* FD/AD/Regions - TODO get image
+* DB stuff? 
+* Backups in Object Storage multi region
 
 ---
 class: center, middle, white
@@ -21,6 +34,8 @@ class: center, middle, white
 
 ???
 
----
-class: center, middle, gray
-# demo
+* Cloud Manager
+* Terraform
+* Resource Manager
+* Auto Scaling 
+* `oci-cli`

@@ -1,40 +1,31 @@
-class: center, middle
+class: center, middle, title
 
 # PeopleSoft Administration & Oracle Cloud Infrastructure
 
 Dan Iverson and Kyle Benson
 
-![psadmin.io](images/psadmin_io.png)
-
-https://wiki.psadmin.io/talk.psa-and-oci
-
-???
-
-Notes go here
+![psadmin.io](images/psadmin_io_white.png)
 
 ---
 
 # Agenda
 
 1. Introduction
-1. Discussion
-    1. Enhanced security
-    1. High availability
-    1. Disaster recovery
-    1. Automation 
-1. Demo
+1. Enhanced Security
+1. High Availability
+1. Disaster Recovery
+1. Automation 
 1. Questions
-
-???
-
-Notes go here
 
 ---
 
-# About Us
+# About psadmin.io
 
-Talk about who we are!
+Providing *PeopleSoft* and *Oracle Cloud* services with a knowledge sharing and training first focus.
 
-???
-
-Notes go here
+* Services
+* Conference
+* Training
+* Blog
+* Podcast
+* Community
