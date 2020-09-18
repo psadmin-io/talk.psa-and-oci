@@ -11,10 +11,7 @@ Dan Iverson and Kyle Benson
 # Agenda
 
 1. Introduction
-1. Enhanced Security
-1. High Availability
-1. Disaster Recovery
-1. Automation 
+1. PeopleSoft Admin & OCI
 1. Questions
 
 ---
@@ -29,3 +26,24 @@ Providing *PeopleSoft* and *Oracle Cloud* services with a knowledge sharing and 
 * Blog
 * Podcast
 * Community
+
+---
+
+# Dan Iverson
+
+* About dan
+
+---
+
+# Kyle Benson
+
+* PeopleSoft Architect
+* Oracle Cloud Infrastructure Architect
+* [Oracle ACE](https://psadmin.io/ace-kyle)
+* [Oracle Certified](https://www.youracclaim.com/users/kyle-benson/badges)
+* 13+ years using PeopleSoft and Oracle
+
+---
+class: center, middle, no-padding
+
+.ace-image[![ACE Program](images/ace.png)]
