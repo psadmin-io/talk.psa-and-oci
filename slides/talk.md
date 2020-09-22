@@ -18,6 +18,12 @@ class: center, middle, white
     * Any user who has access to the instance automatically inherits the privileges granted to the instance.
     * Use dynamic groups to assign instances to group, then policy to the group for access
 * **Demo**: Secrets from the Vault 
+    * Show Vault from the Console
+    * From Cloud Shell (psaoci)
+    ```bash
+    ssh -i ~/.ssh/cmtrial opc@
+    sudo ioco vault read --secret-id=ocid1.vaultsecret.oc1.iad.amaaaaaaha7drbiaiihy3ewd3s76pv6w3r75ejy3ciaggvnjjzb3rrtlgwlq
+    ```
 
 ---
 class: center, middle, white
@@ -33,6 +39,10 @@ class: center, middle, white
 * **Instance Pool**
     * https://docs.cloud.oracle.com/en-us/iaas/Content/Compute/Tasks/creatinginstancepool.htm
 * **Demo**: File Storage delta backups
+   ```bash
+   cd /cm_psft_dpks/.snapshot
+   suod mkdir 2020-09-22
+   ```
 
 ---
 class: center, middle, white
@@ -45,8 +55,13 @@ class: center, middle, white
 * Backups in Object Storage multi region
 * DNS traffic mgmt
     * https://docs.cloud.oracle.com/en-us/iaas/Content/EdgeServices/overview.htm
-* Demo: Show diagram
+* Demo: Show diagram (https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_689,h_667/https://k21academy.com/wp-content/uploads/2019/08/Picture111.png)
 * Demo: Show region in console
+
+---
+class: center, middle, white
+
+![:img OCI Regions, 80%](images/ociregions.png)
 
 ---
 class: center, middle, white
@@ -61,4 +76,5 @@ class: center, middle, white
     * Instance Pool
     * Performance Pervisioning
 * `oci-cli`
-* Demo: Stack deployment - CM
+* Demo: Resource Manager Stacks/Drift Detection
+* Demo: Stack Deployment - FS Demo Environment
