@@ -8,3 +8,4 @@ class: center, middle, white
 
 * psadmin.io/oci
 * psadmin.io/community
+* info@psadmin.io

@@ -28,6 +28,42 @@ class: center, middle, white
 
 ---
 class: center, middle, white
+# Disaster Recovery
+
+???
+
+* FD/AD/Regions - Show Diagrams 
+
+---
+class: center
+
+# OCI Regions
+
+![:img OCI World map, 100%](images/oci-region-map.png)
+
+
+---
+class: center
+
+# OCI Regional Design
+
+![:img OCI Regions, 80%](images/ociregions.png)
+
+---
+class: center, middle, white
+# Disaster Recovery
+
+???
+
+* Move non-prod/DR to OCI first
+* Data Guard
+* Backups in Object Storage multi region
+* DNS traffic mgmt
+    * https://docs.cloud.oracle.com/en-us/iaas/Content/EdgeServices/overview.htm
+* Demo: Show region in console
+
+---
+class: center, middle, white
 # High Availability
 
 ???
@@ -44,25 +80,6 @@ class: center, middle, white
    cd /cm_psft_dpks/.snapshot
    suod mkdir 2020-09-22
    ```
-
----
-class: center, middle, white
-# Disaster Recovery
-
-???
-
-* FD/AD/Regions
-* Data Guard
-* Backups in Object Storage multi region
-* DNS traffic mgmt
-    * https://docs.cloud.oracle.com/en-us/iaas/Content/EdgeServices/overview.htm
-* Demo: Show diagram (https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_689,h_667/https://k21academy.com/wp-content/uploads/2019/08/Picture111.png)
-* Demo: Show region in console
-
----
-class: center, middle, white
-
-![:img OCI Regions, 80%](images/ociregions.png)
 
 ---
 class: center, middle, white
