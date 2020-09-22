@@ -20,9 +20,13 @@ class: center, middle, white
 * **Demo**: Secrets from the Vault 
     * Show Vault from the Console
     * From Cloud Shell (psaoci)
+
     ```bash
-    ssh -i ~/.ssh/cmtrial opc@
-    sudo ioco vault read --secret-id=ocid1.vaultsecret.oc1.iad.amaaaaaaha7drbiaiihy3ewd3s76pv6w3r75ejy3ciaggvnjjzb3rrtlgwlq
+    $ ssh -i ~/.ssh/cmtrial opc@
+    
+    $ oci secrets secret-bundle get --secret-id ocid1.vaultsecret.oc1.iad.amaaaaaaha7drbiar2tqbwvtd24h2m7b2aht3oysnp5h543ws5vnqxr5viwq --auth instance_principal
+
+    $ sudo ioco vault read -q --secret-id=ocid1.vaultsecret.oc1.iad.amaaaaaaha7drbiar2tqbwvtd24h2m7b2aht3oysnp5h543ws5vnqxr5viwq 
     ```
 
 ---
