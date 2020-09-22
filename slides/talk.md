@@ -6,9 +6,6 @@ class: center, middle, white
 * **Compartments and Tags**
     * https://docs.cloud.oracle.com/en-us/iaas/Content/Identity/Tasks/managingcompartments.htm
     * https://docs.cloud.oracle.com/en-us/iaas/Content/Tagging/Concepts/taggingoverview.htm
-* **Oracle Cloud Guard**
-    * https://www.oracle.com/cloud/security/cloud-guard/
-    * Gain a unified view of cloud security posture across Oracle Cloud Infrastructure customer tenants. Oracle Cloud Guard detects misconfigured resources and insecure activity across tenants and provides security administrators with the visibility to triage and resolve cloud security issues. Security inconsistencies can be automatically remediated with out-of-the-box security recipes to effectively scale the security operations center.
 * **SL vs. SG**
     * https://k21academy.com/1z0-932/network-security-groups-vs-security-list-and-when-to-use-what/
     * A Security list lets you define a set of security rules that applies to all the VNICs in a subnet whereas Network Security Groups let you define a set of security rules that applies to a group of VNICs of your choice.
@@ -37,11 +34,11 @@ class: center, middle, white
 
 * **OCI Load Balancer**
     * https://docs.cloud.oracle.com/en-us/iaas/Content/Balance/Concepts/balanceoverview.htm
+* **Instance Pool**
+    * https://docs.cloud.oracle.com/en-us/iaas/Content/Compute/Tasks/creatinginstancepool.htm
 * **FSS/Object Storage**
     * https://docs.cloud.oracle.com/en-us/iaas/Content/File/Concepts/filestorageoverview.htm
     * https://docs.cloud.oracle.com/en-us/iaas/Content/Object/Concepts/objectstorageoverview.htm
-* **Instance Pool**
-    * https://docs.cloud.oracle.com/en-us/iaas/Content/Compute/Tasks/creatinginstancepool.htm
 * **Demo**: File Storage delta backups
    ```bash
    cd /cm_psft_dpks/.snapshot
@@ -76,9 +73,5 @@ class: center, middle, white
 * Cloud Manager
 * Terraform
 * Resource Manager/Stacks
-* Auto Scaling
-    * Instance Pool
-    * Performance Pervisioning
 * `oci-cli`
 * Demo: Resource Manager Stacks/Drift Detection
-* Demo: Stack Deployment - FS Demo Environment
